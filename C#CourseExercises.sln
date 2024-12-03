@@ -57,6 +57,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stock Price alert with Dyna
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cats & Food", "Cats & Food\Cats & Food.csproj", "{15C1FB3A-A511-4CE9-B6F6-D13BB4AA7904}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Extracting email addresses with Regex", "Extracting email addresses with Regex\Extracting email addresses with Regex.csproj", "{754830EA-D943-4988-A7CE-9ED20B898A81}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -171,6 +173,10 @@ Global
 		{15C1FB3A-A511-4CE9-B6F6-D13BB4AA7904}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{15C1FB3A-A511-4CE9-B6F6-D13BB4AA7904}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{15C1FB3A-A511-4CE9-B6F6-D13BB4AA7904}.Release|Any CPU.Build.0 = Release|Any CPU
+		{754830EA-D943-4988-A7CE-9ED20B898A81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{754830EA-D943-4988-A7CE-9ED20B898A81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{754830EA-D943-4988-A7CE-9ED20B898A81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{754830EA-D943-4988-A7CE-9ED20B898A81}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
