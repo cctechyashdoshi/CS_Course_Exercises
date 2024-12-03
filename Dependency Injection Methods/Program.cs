@@ -32,7 +32,7 @@ namespace Coding.Exercise
 
     public class MyClassSetterInjection
     {
-        public ILoggingService LoggingService { private get; set; }
+        public ILoggingService? LoggingService { private get; set; }
 
         public void PerformAction()
         {
@@ -47,7 +47,7 @@ namespace Coding.Exercise
 
     public class MyClassInterfaceInjection : IDependencyInjector
     {
-        private ILoggingService _loggingService;
+        private ILoggingService? _loggingService;
 
         public void SetDependency(ILoggingService loggingService)
         {
