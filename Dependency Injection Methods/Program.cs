@@ -36,7 +36,7 @@ namespace Coding.Exercise
 
         public void PerformAction()
         {
-            LoggingService.Log("Setter Injection: Logging message.");
+            LoggingService?.Log("Setter Injection: Logging message.");
         }
     }
 
@@ -56,7 +56,7 @@ namespace Coding.Exercise
 
         public void PerformAction()
         {
-            _loggingService.Log("Interface Injection: Logging message.");
+            _loggingService?.Log("Interface Injection: Logging message.");
         }
     }
 
